@@ -4,143 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover">
     <title>Saimohan's Portfolio</title>
     <style>
-        body {
-            margin: 0;
-            padding: 0;
-        }
-        
-        h1 {
-            width: 100%; /* Make images responsive */
-            max-width: 100%; 
-            font-size: 40px;
-            font-family: Montserrat;
-            font-weight: bold;
-            color: #0087;
-            text-align: center;
-            margin: 10px 0;
-        }
-        
-        h3 {
-            width: 100%; /* Make images responsive */
-            max-width: 100%; 
-            font-family: Montserrat;
-            font-weight: normal;
-            color: #0087;
-            font-size: 25px;
-            text-align: center;
-            margin: 10px 0;
-        }
-        
-        p {width: 100%; /* Make images responsive */
-            max-width: 100%; 
-            font-family: 'Roboto', sans-serif;
-            font-weight: normal;
-            font-style: italic;
-            color: #1D1E1E;
-            text-align: left;
-            margin: 10px 0;
-        }
-        
-        .container {
-            width: 100%; /* Make images responsive */
-            max-width: 100%; 
-            width:600px;
-            margin: auto;
-        }
-        
-        .content p {
-            text-align: center;
-            font-family:Montserrat
-        }
-        
-        .columns {
-            display: flex;
-            justify-content: space-around;
-            margin-top: -10px;
-        
-        }
-        
-        .column {
-            width: 30%;
-            padding: 10px;
-            margin: 10px;
-            text-align: left;
-            color: #1D1E1E;
-            position: relative;
-        }
-        
-        
-        .column p {
-            color: rgb(2, 3, 129);
-            font-size: 19px;
-            font-family: Montserrat;
-            text-transform: none;
-            font-style: normal;
-            text-align:left;
-        
-        }
-        .column img{
-            width: 95%; /* Make images responsive */
-            max-width: 95%; 
-          width: 95px;
-            height: 95px;
-            object-fit: cover;
-            border-radius: 50%;
-            position:left;
-            border:1.5px solid rgb(26,46,150);
-           
-            
-            
-        }
-        .blue-background {
-            width: 100%; /* Make images responsive */
-            max-width: 100%; 
-            height: 350px;
-            background-color: #0087FF; /* Blue background color */
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: space-around;
-            margin: auto;
-            margin-top:10px;
-        }
-        
-        .image-column {
-            
-            opacity: 0.6;
-            margin-right:-60px;
-            margin-bottom:-4px;
-        }
-        
-        .about-me-column {
-            
-            color: white;
-            width: 50%;
-            padding: 50px;
-            text-align: left;
-            margin-bottom:110px;
-        }
-        
-        
-        
-        button {
-            
-            background-color: #0087;
-            color: white;
-            padding: 10px;
-            margin:10px;
-            border: none;
-            cursor: pointer;
-            font-size: 16px;
-        }
+{% include "styling-home.css" %}
     </style>
 </head>
 
 <body>
-    <div class="container">
+    <div class="container elementor-kit-120">
         <div class="content">
             <h1>Saimohan Soundararajan</h1>
             <h3>Data Analyst</h3>
@@ -150,7 +22,7 @@
                 <div class="column">
                     <img src="https://iili.io/JGKVV9I.png" >
                     <p>Data Interpretation</p>
-                    <div style="font-size:12px;  font-family: Montserrat; color:rgb(20,4,135);font-style:italic">
+                    <div class="part1">
                         Unveiling patterns and trends, I specialize in decoding complex datasets. My knack for turning numbers into actionable insights ensures informed decision-making for business growth.
                     </div>
                 </div>
@@ -158,7 +30,7 @@
                 <div class="column">
                     <img src="https://iili.io/JGKVl6v.png" >
                     <p>Statistical Analysis</p>
-                    <div style="font-size:12px;  font-family: Montserrat; color:rgb(20,4,135);font-style:italic">
+                    <div class="part1">
                         Proficient in advanced statistical methods, I extract meaningful conclusions from data noise. My expertise empowers businesses to optimize strategies, enhance performance, and stay ahead in a data-driven world.
                     </div>
                 </div>
@@ -166,7 +38,7 @@
                 <div class="column">
                     <img src="https://iili.io/JGKVPou.png" alt="Image 3">
                     <p>Data Visualization</p>
-                    <div style="font-size:12px;  font-family: Montserrat; color:rgb(20,4,135);font-style:italic">
+                    <div class="part1">
                         I bring data to life through compelling visual narratives. From interactive dashboards to insightful charts, my expertise in visualization not only simplifies complex data but also communicates impactful stories to diverse audiences.
                     </div>
                 </div>
@@ -175,12 +47,12 @@
     </div>
             <div class="blue-background">
                 <div class="image-column">
-                    <img src="https://iili.io/JGTacdJ.jpg" alt="Your Image" style="width:400px; height: 350px;image-fit:cover">
+                    <img src="https://iili.io/JGTacdJ.jpg" alt="Your Image">
                 </div>
         
                 <div class="about-me-column">
-                    <h2 style="color:white">About Me</h2>
-                    <p style="color:white">
+                    <h2 >About Me</h2>
+                    <p >
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
@@ -189,7 +61,11 @@
                     </p>
                 </div>
             </div>
-
+            <div class="part2">
+               <h2>
+                Portfolio
+               </h2> 
+            </div>
             <div style="text-align:center">
                 <button>Resume</button>
             </div>
