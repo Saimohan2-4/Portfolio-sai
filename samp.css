@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Saimohan's Portfolio</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            font-size: 40px;
+            font-family: Montserrat;
+            font-weight: bold;
+            color: #0087;
+            text-align: center;
+            margin: 10px 0;
+        }
+
+        h3 {
+            font-family: Montserrat;
+            font-weight: normal;
+            color: #0087;
+            font-size: 25px;
+            text-align: center;
+            margin: 10px 0;
+        }
+
+        p {
+            font-family: 'Roboto', sans-serif;
+            font-weight: normal;
+            font-style: italic;
+            color: #1D1E1E;
+            text-align: left;
+            margin: 10px 0;
+        }
+
+        .container {
+            width: 350px;
+            margin: auto;
+        }
+
+        .content p {
+            text-align: center;
+            font-family: Montserrat
+        }
+
+        .columns {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+
+        .column {
+            width: 30%;
+            padding: 10px;
+            margin: 10px;
+            text-align: justify;
+            color: #1D1E1E;
+            position: relative;
+        }
+
+
+        .column p {
+            color: rgb(2, 3, 129);
+            font-size: 19px;
+            font-family: Montserrat;
+            text-transform: none;
+            font-style: normal;
+            text-align: left;
+
+        }
+
+        .column img {
+
+            width: 95px;
+            height: 95px;
+            object-fit: cover;
+            border-radius: 50%;
+            position: left;
+            border: 1.5px solid rgb(26, 46, 150);
+
+
+        }
+
+        .blue-background {
+            background-color: #0087FF;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .blue-background img {
+            opacity: 0.6;
+        }
+
+        .about-me-column {
+            color: white;
+            width: 70%; /* Adjusted width */
+            padding: 20px;
+            text-align: left;
+        }
+
+        button {
+            background-color: #0087;
+            color: white;
+            padding: 10px;
+            margin: 10px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="content">
+            <h1>Saimohan Soundararajan</h1>
+            <h3>Data Analyst</h3>
+            <p>Transforming raw data into actionable insights, catalyzing informed decisions, and contributing to positive global impact through analytics.</p>
+
+            <div class="columns">
+                <div class="column">
+                    <img src="https://iili.io/JGKVV9I.png">
+                    <p>Data Interpretation</p>
+                    <div style="font-size:12px;  font-family: Montserrat; color:rgb(20,4,135);font-style:italic">
+                        Unveiling patterns and trends, I specialize in decoding complex datasets. My knack for turning numbers into actionable insights ensures informed decision-making for business growth.
+                    </div>
+                </div>
+
+                <div class="column">
+                    <img src="https://iili.io/JGKVl6v.png">
+                    <p>Statistical Analysis</p>
+                    <div style="font-size:12px;  font-family: Montserrat; color:rgb(20,4,135);font-style:italic">
+                        Proficient in advanced statistical methods, I extract meaningful conclusions from data noise. My expertise empowers businesses to optimize strategies, enhance performance, and stay ahead in a data-driven world.
+                    </div>
+                </div>
+
+                <div class="column">
+                    <img src="https://iili.io/JGKVPou.png" alt="Image 3">
+                    <p>Data Visualization</p>
+                    <div style="font-size:12px;  font-family: Montserrat; color:rgb(20,4,135);font-style:italic">
+                        I bring data to life through compelling visual narratives. From interactive dashboards to insightful charts, my expertise in visualization not only simplifies complex data but also communicates impactful stories to diverse audiences.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="blue-background">
+        <div class="about-me-column">
+            <h2>About Me</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+        </div>
+        <img src="https://iili.io/JGKVPou.png" alt="Your Image" style="width: 100%; height: auto;">
+    </div>
+
+    <div style="text-align:center">
+        <button>Resume</button>
+    </div>
+
+</body>
+
+</html>
