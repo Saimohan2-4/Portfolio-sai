@@ -236,29 +236,49 @@ p {
 
 .container {
     position: relative;
-    width: 300px;
-    height: 180px;
+    aspect-ratio: 3/2;
     margin: 1rem;
     border-radius: 10px;
+    overflow: hidden;
     
 }
 
 .container:hover .overlay {
     opacity: 1;
 }
-
+.graph {
+    width: 100%;
+    height: 100%;
+}
 .text {
     color: white;
-    font-size: 20px;
-    position: absolute;
-    top: 50%;
+    font-size: 16px;
+    /* position: absolute; */
+    /* top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
     text-align: center;
+    /* width: 280px; */
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
 }
+.text p {
+    color: white;
+    font-style: normal;
+    text-align: center;
 
+}
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
 .overlay {
     position: absolute;
     top: 0;
@@ -271,6 +291,8 @@ p {
     transition: .5s ease;
     background-color: #008bbaa2;
     border-radius: 10px;
+    overflow: hidden;
+
 }
 
 button {
@@ -533,10 +555,10 @@ h1.entry-title {
     .part1 {
         font-size: 14px;
     }
-    .container {
+    /* .container {
         width: 260px;
         height: 180px;
-    }
+    } */
 
     .elementor-kit-120 {
         --e-global-typography-primary-font-size: 45px;
@@ -584,6 +606,9 @@ h1.entry-title {
         --e-global-typography-fb1a3e0-font-size: 100px;
         --e-global-typography-fb1a3e0-line-height: 1em;
         font-size: 16px;
+    }
+    .text {
+        font-size: 12px;
     }
 
     .elementor-kit-120 h1 {
@@ -674,6 +699,8 @@ h1.entry-title {
 
     }
 
+  
+
     /* .container {
         position: relative;
         width: 300px;
@@ -728,15 +755,24 @@ h1.entry-title {
 
 }
 
-@media only screen and (max-width:950px) {
+@media only screen and (max-width:1000px) {
     .part1 {
         font-size: 12px;
     }
 
-    .container {
+    /* .container {
         width: 180px;
         height: 120px;
+    } */
+    .portfolio-gallery {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* background-color: #1d1e1e; */
+
     }
+    
 }
 
 @media only screen and (max-width:480px) {
@@ -773,4 +809,9 @@ h1.entry-title {
         font-size:16px;
         text-align: center;
     }
+    .text {
+        font-size: 16px;
+    }
+
+    
 }
