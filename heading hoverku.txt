@@ -1,0 +1,23 @@
+Time Series Analysis:
+Visualize sales trends over time. Use a line chart with the order date on the x-axis and sales on the y-axis to identify patterns and fluctuations.
+
+Sales Distribution Visualization:
+Create bar charts to display sales distribution by product categories and subcategories. Identify top-performing and underperforming products for strategic insights.
+
+Geospatial Sales Analysis:
+Utilize a map visualization to explore sales distribution across different regions or cities. Gain insights into regional performance and identify potential areas for improvement.
+
+Profit Analysis by Region:
+Compare profits across regions using a bar or stacked bar chart. Identify regions contributing the most to profits and areas for strategic focus.
+
+Discount-Profit Scatter Plot:
+Analyze the correlation between offered discounts and profits with a scatter plot. Identify patterns and outliers to optimize discount strategies for profitability.
+
+Category-wise Profits:
+Utilize bar charts to examine profit distribution across product categories. Understand how profits vary among different product types and plan accordingly for growth strategies.
+
+Sales vs. Profit Bubble Chart:
+Create a bubble chart displaying sales, profit, and discount relationships. Explore dimensions visually, considering bubble size and color for a comprehensive understanding of data.
+
+State-wise Sales Comparison:
+Compare sales across states using a bar chart or treemap. Visualize variations to identify high-performing states and areas for targeted improvement strategies.
