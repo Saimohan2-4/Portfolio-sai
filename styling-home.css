@@ -157,7 +157,7 @@ p {
     width: 100%;
     /* Make images responsive */
     max-width: 100%;
-    height: 350px;
+    height: 380px;
     background-color: rgba(154, 184, 205);
     /* Blue background color */
     display: flex;
@@ -165,6 +165,7 @@ p {
     align-items: center;
     justify-content: space-between;
     margin: auto;
+
     /* margin-top: 10px; */
 }
 
@@ -179,10 +180,12 @@ p {
 
 .image-column {
 
-    opacity: 0.9;
+    opacity: 0.76;
     margin-right: -60px;
     margin-bottom: -4px;
     width: 40%;
+    align-items: center;
+    
 
 }
 
@@ -252,16 +255,17 @@ p {
 }
 .text {
     color: white;
+    width: 90% ;
     font-size: 16px;
-    /* position: absolute; */
-    /* top: 50%;
+    position: absolute;
+    top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%); */
+    transform: translate(-50%, -50%);
     text-align: center;
     /* width: 280px; */
-    width: 90%;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -326,17 +330,16 @@ button {
 }
 .contactainer  {
     width: auto;
+    font-style: normal;
     background-color: rgba(154, 184, 205);
-    color: white;
+    color: rgb(53, 56, 57);
     padding: 12px 25px;
+    display: flex;
+    flex-direction: column;
 }
 .contactainer p {
-    color: white;
-}
-.text-stroke {
-    /* -webkit-text-stroke-color: black;
-    -webkit-text-stroke-width: 0.6px; */
-
+    font-style: normal;
+    color: rgb(6, 29, 36);
 }
 
 /* .elementor-kit-120 {
@@ -815,4 +818,8 @@ h1.entry-title {
     }
 
     
+}
+.resume {
+    border-radius: 10px;
+
 }
